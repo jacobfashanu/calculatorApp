@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![](./Desktop-view2.png)
+![](./Calculator-desktop-screenshot.png)
 
 
 ### Built with

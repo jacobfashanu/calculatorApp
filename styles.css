@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ### Theme 1 */
+
+    /* #### Backgrounds */
+
+    --Very-dark-desaturated-blue-main-background: hsl(222, 26%, 31%);
+    --Very-dark-desaturated-blue-toggle-background-keypad-background: hsl(223, 31%, 20%);
+    --Very-dark-desaturated-blue-screen-background: hsl(224, 36%, 15%);
+
+    /* #### Keys */
+
+    --Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+    --Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+
+    --Red-key-background-toggle: hsl(6, 63%, 50%);
+    --Dark-red-key-shadow: hsl(6, 70%, 34%);
+
+    --Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+    --Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+
+    /* #### Text */
+
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ### Theme 3 */
+
+    /* #### Backgrounds */
+
+    --Very-dark-violet-main-background: hsl(268, 75%, 9%);
+    --Very-dark-violet-toggle-background-keypad-background-screen-background: hsl(268, 71%, 12%);
+
+    /* #### Keys */
+
+    --Dark-violet-key-background: hsl(281, 89%, 26%);
+    --Vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+
+    --Pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+    --Soft-cyan-key-shadow: hsl(177, 92%, 70%);
+
+    --Very-dark-violet-key-background: hsl(268, 47%, 21%);
+    --Dark-magenta-key-shadow: hsl(290, 70%, 36%);
+
+    /* #### Text */
+
+    --Light-yellow: hsl(52, 100%, 62%);
+    --Very-dark-blue: hsl(198, 20%, 13%);
+
+    /* ### Theme 2 */
+
+    /* #### Backgrounds */
+
+    --Light-gray-main-background: hsl(0, 0%, 90%);
+    --Grayish-red-toggle-background-keypad-background: hsl(0, 5%, 81%);
+    --Very-light-gray-screen-background: hsl(0, 0%, 93%);
+
+    /* #### Keys */
+
+    --Dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+    --Very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+
+    --Orange-key-background-toggle: hsl(25, 98%, 40%);
+    --Dark-orange-key-shadow: hsl(25, 99%, 27%);
+
+    --Light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+    --Dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+
+    /* #### Text */
+
+    --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+    --White-text: hsl(0, 0%, 100%);
+
+    
+}
+
+html {
+    font-size: 32px;
+}
+
+body {
+    background-color: var(--Very-dark-desaturated-blue-main-background);
+    color: var(main);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+main {
+    transform: scale(1.2, 1.2);
+}
+
+#blank {
+    opacity: 0;
+}
+
+main div:nth-of-type(1) {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 0.35rem;
+    color: var(--White);
+    position: relative;
+    left: -5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--White);
+    margin-bottom: 20px;
+}
+.toggle {
+    display: flex;
+    align-items: center;
+}
+.tri-state-toggle {
+    /* display: inline-block; */
+    /* width: 60%; */
+    /* font-size: 0.2rem; */
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--Very-dark-desaturated-blue-toggle-background-keypad-background);
+    border-radius: 50px;
+    background-color: var(--Very-dark-desaturated-blue-toggle-background-keypad-background);
+}
+
+input{
+    height: 18px;
+    width: 18px;    
+    appearance: none;
+    border-radius: 50px;
+    /* transition: 0.2s all linear; */
+}
+
+input:checked {
+    border: 9px solid var(--Red-key-background-toggle);
+}
+
+label {
+    font-size: 0.3rem;
+}
+
+h2 {
+    color: var(--White);
+    display: block;
+    background-color: var(--Very-dark-desaturated-blue-toggle-background-keypad-background);
+    border-radius: 5px;
+    height: 10%;
+    padding: 20px 20px 20px 0px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+#reset {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--Very-dark-desaturated-blue-toggle-background-keypad-background);
+    border-radius: 5px;
+    width: 350px;
+}
+
+button {
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Light-grayish-orange-key-background);
+    color: var(--Very-dark-grayish-blue);
+    box-shadow: 0px 3px var(--Grayish-orange-key-shadow);
+    /* height: 100%; */
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(30, 25%, 100%);
+}
+
+#delete, #reset, #equal {
+    font-size: 0.6rem;
+}
+
+#delete, #reset {
+    background-color: var(--Desaturated-dark-blue-key-background);
+    color: var(--White);
+    box-shadow: 0px 3px var(--Desaturated-dark-blue-key-shadow)
+}
+
+
+#equal {
+    grid-column: 3 / 5;
+    grid-row: 5;
+    background-color: var(--Red-key-background-toggle);
+    color: var(--White);
+    box-shadow: 0px 3px var(--Dark-red-key-shadow)
+}
+
+
+
+
+#delete:hover, #reset:hover {
+    background-color: hsl(225, 21%, 60%);
+}
+
+#equal:hover {
+    background-color: hsl(6, 63%, 61%);
+}
+
+button:active {
+    transform: scale(0.90);
+
+}
+

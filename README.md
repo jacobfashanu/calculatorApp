@@ -1,6 +1,6 @@
 ### Links
 
-- Live Site URL: [https://jacobf-huddle-landing-page.netlify.app/](https://jacobf-huddle-landing-page.netlify.app/)
+- Live Site URL: [https://jacobfsimple-calculator.netlify.app/](https://jacobfsimple-calculator.netlify.app/)
 
 ### Screenshot
 

@@ -454,7 +454,7 @@ btn1.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -503,7 +503,7 @@ btn2.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -551,7 +551,7 @@ btn3.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -599,7 +599,7 @@ btn4.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -647,7 +647,7 @@ btn5.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -695,7 +695,7 @@ btn6.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -743,7 +743,7 @@ btn7.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -791,7 +791,7 @@ btn8.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -838,7 +838,7 @@ btn9.element1.addEventListener("click", () => {
     }
 
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 
@@ -926,7 +926,7 @@ btn0.element1.addEventListener("click" , () => {
         reseter();
     }
     if((lhs.operator === '' && lhs.value.length >= 9) || output.value.length >= 13 || (lhs.valueHasBeenSet && lhs.value.length >= 9)) {
-        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press reset.');
+        alert('calculator cannot do arithmetic on two numbers with a combined total of more than 9 digits. Press RESET or DEL.');
         return;
     }
 

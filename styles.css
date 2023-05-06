@@ -83,6 +83,7 @@
 
 html {
     font-size: 32px;
+    height: 100%;
 }
 
 body {
@@ -93,6 +94,7 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: 'League Spartan', sans-serif;
+    height: 100%;
 }
 main {
     transform: scale(1.2, 1.2);
